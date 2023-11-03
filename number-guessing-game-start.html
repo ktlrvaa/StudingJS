@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+    <meta charset="utf-8">
+
+    <title>Number guessing game</title>
+
+    <link rel="stylesheet" href="number-guessing-game-start.css">
+    <script src="number-guessing-game-start.js" defer></script>
+</head>
+
+<body>
+    <h1>Игра в угадывание чисел</h1>
+
+    <p>Мы выбрали случайное число от 1 до 100.
+        Посмотрите, сможете ли вы угадать это за 10 ходов или меньше.
+        Мы сообщим вам, была ли ваша догадка слишком высокой или слишком заниженной.
+    </p>
+
+    <div class="form">
+        <label for="guessField">Введите предположение: </label>
+        <input type="number" min="1" max="100" required id="guessField" class="guessField">
+        <input type="submit" value="Submit guess" class="guessSubmit">
+    </div>
+
+    <div class="resultParas">
+        <p class="guesses"></p>
+        <p class="lastResult"></p>
+        <p class="lowOrHi"></p>
+    </div>
+
+    <script>
+
+        // Your JavaScript goes here
+
+    </script>
+</body>
+
+</html>
